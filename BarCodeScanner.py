@@ -1,0 +1,1 @@
+#This is barcode/QR code scanner python code
