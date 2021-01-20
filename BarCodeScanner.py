@@ -24,8 +24,9 @@ def CodeReader(image):
             print("Information: ",info)
     except:
         print("Error: No Barcode/Qr code found. ")
-   
+
 PATH = 'E:/Projects/BarcodeScanner/data/'   # PATH to input image folder
+
 
 for image_path in os.listdir(PATH):
     input_img = os.path.join(PATH, image_path)
