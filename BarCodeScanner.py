@@ -11,6 +11,8 @@ import os
 # img_path = 'E:/Projects/data/qr1.jpg'
 
 def CodeReader(image):
+    info = ""
+
     img = cv2.imread(image)
     # cv2.namedWindow('image',cv2.WINDOW_NORMAL)
     # cv2.imshow('image',img)
@@ -24,6 +26,8 @@ def CodeReader(image):
             print("Information: ",info)
     except:
         print("Error: No Barcode/Qr code found. ")
+
+    return info
 
 PATH = 'E:/Projects/BarcodeScanner/data/'   # PATH to input image folder
 
