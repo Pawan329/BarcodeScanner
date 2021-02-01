@@ -1,0 +1,1 @@
+The barcode reader project is intended to make tasks such as grocery shopping easier for those who are visually impaired. The application will allow individuals to scan an image of a unique barcode, and access information related to the item electronically.
